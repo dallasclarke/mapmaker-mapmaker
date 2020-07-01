@@ -2,6 +2,66 @@
  * YOUR CODE HERE *
 ******************/
 
+const doubleAll = function (num) {
+  let results = [];
+  
+  for (let i = 0; i < num.length; i++) {
+    results.push(num[i] * 2)
+  }
+  return results
+}
+
+const yelledGreetings = function (arr) {
+  let results = [];
+
+  for (let i = 0; i < arr.length; i++) {
+    results.push(arr[i] + '!')
+  }
+  return results
+}
+
+const absoluteValues = function (num) {
+  let results = [];
+
+  for (let i = 0; i < num.length; i++) {
+    results.push(Math.abs(num[i]))
+  }
+  return results;
+}
+
+const upperCaseFirstLetters = function (arr) {
+  let result = [];
+  for (let i = 0; i < arr.length; i++) {
+    let str = arr[i];
+    let firstChar = str[0].toUpperCase();
+    let otherLetters = str.slice(1).toLowerCase()
+    let fullName = firstChar + otherLetters;
+    result.push(fullName)
+  }
+  return result
+}
+
+const changeToInitials = function (initials) {
+  let result = [];
+    for (let i = 0; i < initials.length; i++) {
+      let str = arr[i]
+      let firstChar = str.slice(0).toUpperCase();
+    }
+
+}
+
+
+const doubleOdd = function (num) {
+  let result = [];
+  for (let i = 0; i < num.length; i++) {
+    if (num[i] % 2 === 1 || num[i] % 2 === -1) {
+      result.push(num[i] * 2)
+    } else {
+      result.push(num[i])
+    }
+  }
+  return result;
+}
 
 
 
